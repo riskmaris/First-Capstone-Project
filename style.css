@@ -181,7 +181,7 @@ nav .top {
 
 .program {
   width: 100%;
-  background-image: url(./images/background-img.png);
+  background-image: url(./images/cross.svg);
   background-repeat: repeat;
   background-color: #282b32;
   mix-blend-mode: multiply;
@@ -219,7 +219,7 @@ nav .top {
   align-items: center;
   background: #3b3e45;
   padding: 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem; 
 }
 
 .program-name {
@@ -377,7 +377,7 @@ footer,
     align-items: center;
     justify-content: flex-end;
     background: #3e3e3e;
-    gap: 1rem;
+    gap: 1rem; 
   }
 
   nav .top a {
@@ -525,10 +525,17 @@ footer,
   }
 
   .partner-logos {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
     justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
+    width: 100%;
+    gap: 5rem;
+    padding: 60px;
+  } 
+
+  .partner-logos img {
+    width: 60%;
   }
 
   footer {
