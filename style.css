@@ -33,6 +33,10 @@ nav .bottom .logo {
   color: #515151;
 }
 
+nav .bottom .logo img {
+  width: 15%;
+}
+
 nav .top {
   display: none;
 }
