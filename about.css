@@ -176,18 +176,28 @@ nav .top {
   color: #5f5f5f;
 }
 
-.logo {
+/* .logo {
   align-items: center;
   padding: 1.5rem 2rem;
   border: 1px solid f5f5f5;
   background: #fff;
   margin-bottom: 1rem;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
-}
+} */
 
 .logo img {
-  width: 8%;
-  margin-left: 45%;
+  margin-bottom: 20px;
+  padding: 25px 80px;
+  background: #fff;
+  /* width: 20%; */
+  align-items: center;
+  /* margin-left: 40%; */
+  z-index: 999;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .partner hr {
@@ -345,17 +355,20 @@ footer {
   nav .top {
     display: flex;
     width: 100%;
-    align-items: center;
+    /* align-items: center; */
     justify-content: flex-end;
     /* margin: 0 auto; */
     background-color: #3e3e3e;
     padding: 0.3rem 1rem;
-    gap: 1rem; 
+    gap: 1rem;
+    /* margin-left: 60px; */
+    border: 2px solid green; 
   }
 
   nav .top a {
     font-family: 'Lato', sans-serif;
     color: #fff;
+    /* padding-left: 60px; */
   }
 
   nav .bottom {
@@ -371,6 +384,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
+    /* padding-right: 40px; */
   }
 
   .hamburger {
@@ -451,6 +465,20 @@ footer {
   .logo-sub {
     padding: 0;
   }
+
+  .logo img {
+    margin-bottom: 20px;
+    padding: 25px 80px;
+    background: #fff;
+    width: 20%;
+    margin-left: 40%;
+    z-index: 999;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
 
   .line {
     color: #868686;

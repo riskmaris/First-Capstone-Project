@@ -25,17 +25,18 @@ nav .bottom {
   gap: 30%;
 }
 
-nav .bottom .logo {
+.main-logo {
   order: 2;
   font-family: 'Lato', sans-serif;
   font-weight: 800;
   font-size: 1.5rem;
   color: #515151;
+  display: none;
 }
 
-nav .bottom .logo img {
+/* nav .bottom .logo img {
   width: 15%;
-}
+} */
 
 nav .top {
   display: none;
@@ -123,9 +124,10 @@ nav .top {
 .hello {
   font-family: 'Lato', sans-serif;
   color: #ff5438;
-  font-weight: 400;
-  font-size: 1rem;
+  font-weight: 500;
+  font-size: 45px;
   line-height: 1rem;
+  margin-bottom: 2%;
 }
 
 .hero-wrapper h1 {
@@ -372,6 +374,7 @@ footer,
     background: #3e3e3e;
     padding: 0.2rem 0.5rem;
     gap: 1rem;
+    border: 2px solid green;
   }
 
   nav .top {
@@ -392,9 +395,20 @@ footer,
   nav .bottom {
     width: 90%;
     display: flex;
+    /* margin-right: 20px; */
     padding: 0.5rem;
     flex-direction: row-reverse;
     justify-content: space-between;
+  }
+
+  .main-logo {
+    order: 2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #515151;
+    display: block;
+    margin-right: 20px;
   }
 
   nav .bottom .nav-menu {
@@ -409,7 +423,7 @@ footer,
   }
 
   .nav-menu li:nth-child(6) {
-    padding: 0.5rem;
+     padding: 0.5rem;
     border: 5px solid #ec4327;
   }
 
