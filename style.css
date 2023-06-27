@@ -34,10 +34,6 @@ nav .bottom {
   display: none;
 }
 
-/* nav .bottom .logo img {
-  width: 15%;
-} */
-
 nav .top {
   display: none;
 }
@@ -125,7 +121,7 @@ nav .top {
   font-family: 'Lato', sans-serif;
   color: #ff5438;
   font-weight: 500;
-  font-size: 45px;
+  font-size: 25px;
   line-height: 1rem;
   margin-bottom: 2%;
 }
@@ -225,13 +221,12 @@ nav .top {
   align-items: center;
   background: #3b3e45;
   padding: 1rem;
-  margin-bottom: 0.5rem; 
+  margin-bottom: 0.5rem;
 }
 
 .program-name {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  font-size: 0.8rem;
   line-height: 1.5rem;
   color: #ff5438;
 }
@@ -239,7 +234,6 @@ nav .top {
 .program-desc {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 0.8rem;
   line-height: 1.2rem;
   letter-spacing: 0.06em;
   padding: 0.05rem;
@@ -249,10 +243,10 @@ nav .top {
 
 .join-btn {
   font-family: 'Lato', sans-serif;
-  font-weight: 600;
-  font-size: 1rem;
+  font-weight: 500;
+  font-size: 2rem;
   color: #fff;
-  padding: 1.25rem;
+  padding: 3rem 7rem;
   background: #ff4f38;
   margin-top: 1rem;
 }
@@ -295,14 +289,13 @@ nav .top {
 }
 
 .speaker-img img {
-  width: 50%;
-  aspect-ratio: 1;
+  width: 60%;
+  margin-left: 40px;
 }
 
 .speaker-details .info h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  font-size: 1rem;
   line-height: 1.1rem;
   color: #000;
   margin-bottom: 0.2rem;
@@ -312,7 +305,7 @@ nav .top {
   font-family: 'Lato', sans-serif;
   font-style: italic;
   font-weight: 700;
-  font-size: 0.6rem;
+  font-size: 0.9rem;
   line-height: 1rem;
   color: #f78c89;
   margin-bottom: 0.2rem;
@@ -321,9 +314,9 @@ nav .top {
 .speaker-details .info .s-desc {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  font-size: 0.6rem;
+  font-size: 0.9rem;
   line-height: 1rem;
-  color: #000;
+  color: grey;
   top: 0;
   margin-bottom: 0.2rem;
 }
@@ -374,7 +367,6 @@ footer,
     background: #3e3e3e;
     padding: 0.2rem 0.5rem;
     gap: 1rem;
-    border: 2px solid green;
   }
 
   nav .top {
@@ -384,7 +376,7 @@ footer,
     align-items: center;
     justify-content: flex-end;
     background: #3e3e3e;
-    gap: 1rem; 
+    gap: 1rem;
   }
 
   nav .top a {
@@ -395,7 +387,6 @@ footer,
   nav .bottom {
     width: 90%;
     display: flex;
-    /* margin-right: 20px; */
     padding: 0.5rem;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -423,7 +414,7 @@ footer,
   }
 
   .nav-menu li:nth-child(6) {
-     padding: 0.5rem;
+    padding: 0.5rem;
     border: 5px solid #ec4327;
   }
 
@@ -435,6 +426,15 @@ footer,
   .nav-link {
     font-family: 'Lato', sans-serif;
     color: #868686;
+  }
+
+  .hello {
+    font-family: 'Lato', sans-serif;
+    color: #ff5438;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 1rem;
+    margin-bottom: 2%;
   }
 
   .hero-wrapper h1 {
@@ -550,7 +550,7 @@ footer,
     width: 100%;
     gap: 5rem;
     padding: 60px;
-  } 
+  }
 
   .partner-logos img {
     width: 60%;
@@ -570,7 +570,5 @@ footer,
     font-family: 'Lato', sans-serif;
     color: #3b3e45;
     font-weight: 700;
-    font-size: 1rem;
-    line-height: 0.8rem;
   }
 }
