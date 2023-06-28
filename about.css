@@ -331,8 +331,9 @@ p.about-summit {
 .partner-logos {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 4rem;
 }
 
 .partner-logos img {
