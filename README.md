@@ -1,4 +1,8 @@
-<!-- TABLE OF CONTENTS -->
+
+
+
+
+TABLE OF CONTENTS
 
 # 📗 Table of Contents
 
@@ -131,7 +135,7 @@ If you like this project please give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Cindy Shin with all the resources  and designs they provided.
+I would like to thank [Cindy Shin](https://www.behance.net/adagio07) [License](https://creativecommons.org/licenses/by-nc/4.0/) with all the resources  and designs they provided.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
