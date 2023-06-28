@@ -59,7 +59,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 [Live Demo]  loading...
+## 🚀 [Live Demo]  (https://riskmaris.github.io/First-Capstone-Project/)
 
 <!-- GETTING STARTED -->
 
@@ -131,7 +131,7 @@ If you like this project please give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse with all the resources they provided.
+I would like to thank Cindy Shin with all the resources  and designs they provided.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

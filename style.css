@@ -247,7 +247,7 @@ nav .top {
   font-weight: 500;
   font-size: 2rem;
   color: #fff;
-  padding: 3rem 7rem;
+  padding: 2rem 4rem;
   background: #ff4f38;
   margin-top: 1rem;
 }
@@ -328,19 +328,18 @@ nav .top {
 
 .see-more {
   display: flex;
-  width: 95%;
+  width: 100%;
   padding: 0.5rem 2rem;
   align-items: center;
   justify-content: center;
   gap: 0.2rem;
   border: 1px solid #e0e0e0cd;
   background: #fff;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 0.5rem;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 0.7rem;
-  color: #000;
+  color: gray;
 }
 
 .see-more i {
